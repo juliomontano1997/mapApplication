@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "my-new-project",
+    "description": "This project is really great.",
+    "slug": "my-new-project",
+    "privacy": "public",
+    "sdkVersion": "26.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },    
+    "android": {
+
+      "package": "com.android.MapExample",
+      "config":{
+        "googleMaps": {
+          "apiKey":"AIzaSyA72ucbk1w8ep0djeTDOMC55h2Glc2cIyA"
+        }
+      }
+
+    }
+  }
+}
